@@ -122,6 +122,63 @@
 
     }
 }
+@-webkit-keyframes changeTitleText{
+    0% {
+        -webkit-opacity: -10;
+        -webkit-opacity: 100%;
+        content:"Economics.";
+
+    }
+    10%{
+
+        -webkit-opacity: -10%;
+
+    }
+   20% {
+    -webkit-opacity: 100%;
+        content:"Chemistry.";
+
+    }
+
+    30%{
+
+        -webkit-opacity: -10%;
+    }
+    40% {
+        -webkit-opacity: 100%;
+        content:"Physics.";
+
+    }
+
+    50%{
+
+        -webkit-opacity: -10%;
+    }
+    60% {
+        -webkit-opacity: 100%;
+        content:"English.";
+
+    }
+    
+    70%{
+
+        -webkit-opacity: -10%;
+    } 
+    80% {
+        -webkit-opacity: 100%;
+        content:"Biology.";
+
+    }
+
+    90%{
+        -webkit-opacity: -10%;
+    }
+    100% {
+        -webkit-opacity: 100%;
+        content:"you.";
+
+    }
+}
 
 .container1{
     margin:10px;
