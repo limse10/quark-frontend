@@ -63,6 +63,7 @@
     width:100px;
     height:100px;
     animation: changeTitleText 15s alternate-reverse infinite;
+    -webkit-animation: changeTitleText 15s alternate-reverse infinite;
 }
 
 @keyframes changeTitleText{
