@@ -126,7 +126,7 @@
     0% {
         -webkit-opacity: -10;
         -webkit-opacity: 100%;
-        content:"Economics.";
+        -webkit-content:"Economics.";
 
     }
     10%{
@@ -136,7 +136,7 @@
     }
    20% {
     -webkit-opacity: 100%;
-        content:"Chemistry.";
+    -webkit-content:"Chemistry.";
 
     }
 
@@ -146,7 +146,7 @@
     }
     40% {
         -webkit-opacity: 100%;
-        content:"Physics.";
+        -webkit-content:"Physics.";
 
     }
 
@@ -156,7 +156,7 @@
     }
     60% {
         -webkit-opacity: 100%;
-        content:"English.";
+        -webkit-content:"English.";
 
     }
     
@@ -166,7 +166,7 @@
     } 
     80% {
         -webkit-opacity: 100%;
-        content:"Biology.";
+        -webkit-content:"Biology.";
 
     }
 
@@ -175,7 +175,7 @@
     }
     100% {
         -webkit-opacity: 100%;
-        content:"you.";
+        -webkit-content:"you.";
 
     }
 }
