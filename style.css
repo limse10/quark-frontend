@@ -210,6 +210,12 @@
 }
 
 .cardMain{
+    border:0.4px solid rgba(160,160,160,0.3);
+
+    /*
+    background-image: url('image/download.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;*/
     margin:10px;
     border-radius:20px;
     backdrop-filter: blur(3px);
@@ -221,18 +227,18 @@
 }
 
 .chemistryCard{
-    background:linear-gradient(45deg, rgba(233,255,103,0.9) 20%,rgba(221, 237, 128, 0.4) 50%, rgba(230,230,230,0.2) 90%);
-    -webkit-background:-webkit-linear-gradient(45deg, rgba(233,255,103,0.9) 20%,rgba(221, 237, 128, 0.4) 50%, rgba(230,230,230,0.2) 90%);
+    background:linear-gradient(45deg, rgba(233,255,103,0.9) 20%,rgba(221, 237, 128, 0.6) 50%, rgba(230,230,230,0.2) 90%);
+    -webkit-background:-webkit-linear-gradient(45deg, rgba(233,255,103,0.9) 20%,rgba(221, 237, 128, 0.6) 50%, rgba(230,230,230,0.2) 90%);
 
 }
 .economicsCard{
-    background:linear-gradient(45deg, rgba(233,212,255,0.9) 20%,rgba(239,232,247,0.4) 50%, rgba(230,230,230,0.2) 90%);
-    -webkit-background:-webkit-linear-gradient(45deg, rgba(233,212,255,0.9) 20%,rgba(239,232,247,0.4) 50%, rgba(230,230,230,0.2) 90%);
+    background:linear-gradient(45deg, rgba(233,212,255,0.9) 20%,rgba(239,232,247,0.6) 50%, rgba(230,230,230,0.2) 90%);
+    -webkit-background:-webkit-linear-gradient(45deg, rgba(233,212,255,0.9) 20%,rgba(239,232,247,0.6) 50%, rgba(230,230,230,0.2) 90%);
 
 }
 .physicsCard{
-    background:linear-gradient(45deg, rgba( 255, 220, 184,0.9) 20%,rgba(250, 203, 156, 0.4) 50%, rgba(230,230,230,0.2) 90%);
-    -webkit-background:-webkit-linear-gradient(45deg, rgba( 255, 220, 184,0.9) 20%,rgba(250, 203, 156,0.4) 50%, rgba(230,230,230,0.2) 90%); 
+    background:linear-gradient(45deg, rgba( 255, 220, 184,0.9) 20%,rgba(250, 203, 156, 0.6) 50%, rgba(230,230,230,0.2) 90%);
+    -webkit-background:-webkit-linear-gradient(45deg, rgba( 255, 220, 184,0.9) 20%,rgba(250, 203, 156,0.6) 50%, rgba(230,230,230,0.2) 90%); 
 }
 
 .sub-icon-econs{
@@ -313,7 +319,7 @@
     height:100%;
     padding-top:10px;
     border-radius: 20px;
-
+    
     backdrop-filter: blur(1px);
 }
 
