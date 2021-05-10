@@ -211,6 +211,7 @@
 }
 .economicsCard{
     background:linear-gradient(45deg, rgba(233,212,255,0.9) 20%,rgba(239,232,247,0.4) 50%, rgba(230,230,230,0.2) 90%);
+    -webkit-background:linear-gradient(45deg, rgba(233,212,255,0.9) 20%,rgba(239,232,247,0.4) 50%, rgba(230,230,230,0.2) 90%);
 
 }
 .physicsCard{
