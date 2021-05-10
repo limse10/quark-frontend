@@ -69,7 +69,7 @@
 
 @keyframes changeTitleText{
     0% {
-        opacity: -10;
+        opacity: -10%;
         opacity: 100%;
         content:"Economics.";
 
@@ -126,7 +126,7 @@
 }
 @-webkit-keyframes changeTitleText{
     0% {
-        -webkit-opacity: -10;
+        -webkit-opacity: -10%;
         -webkit-opacity: 100%;
         -webkit-content:"Economics.";
 
