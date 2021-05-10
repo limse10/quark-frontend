@@ -209,6 +209,7 @@
 
 .chemistryCard{
     background:linear-gradient(45deg, rgba(233,255,103,0.9) 20%,rgba(221, 237, 128, 0.4) 50%, rgba(230,230,230,0.2) 90%);
+    -webkit-background:-webkit-linear-gradient(45deg, rgba(233,255,103,0.9) 20%,rgba(221, 237, 128, 0.4) 50%, rgba(230,230,230,0.2) 90%);
 
 }
 .economicsCard{
@@ -254,6 +255,7 @@
 }
 .econsButton{
     background:radial-gradient(ellipse at bottom left,rgb(184, 131, 241),rgb(233, 212, 255));
+    -webkit-background:-webkit-radial-gradient(ellipse at bottom left,rgb(184, 131, 241),rgb(233, 212, 255));
 }
 .econsButton:hover{
     transition-duration: 0.3s;
@@ -264,16 +266,16 @@
     background: rgb(255, 220, 184);    
 }
 .physButton:hover{
-    transition-duration: 0.3s;
-    background:rgb(255, 192, 128);
-}
+    transition-duration: 0.3s;   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.1);}
 
 .chemButton{
-    background: rgb(237, 255, 122);    
+    background: radial-gradient(ellipse at bottom left,rgb(232, 255, 80),rgb(249, 255, 208));    
+    -webkit-background: -webkit-radial-gradient(ellipse at bottom left,rgb(232, 255, 80),rgb(249, 255, 208));    
+
 }
 .chemButton:hover{
     transition-duration: 0.3s;
-    background:rgb(228, 255, 59);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.1);
 }
 
 .cardMain:hover{
