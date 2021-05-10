@@ -218,7 +218,8 @@
 
 }
 .physicsCard{
-
+    background:linear-gradient(45deg, rgba( 255, 220, 184,0.9) 20%,rgba(250, 203, 156, 0.4) 50%, rgba(230,230,230,0.2) 90%);
+    -webkit-background:-webkit-linear-gradient(45deg, rgba( 255, 220, 184,0.9) 20%,rgba(250, 203, 156,0.4) 50%, rgba(230,230,230,0.2) 90%); 
 }
 
 .sub-icon-econs{
@@ -263,7 +264,8 @@
 }
 
 .physButton{
-    background: rgb(255, 220, 184);    
+    background:radial-gradient(ellipse at bottom left,rgb(242, 176, 110),rgb(255, 220, 184));
+    -webkit-background:-webkit-radial-gradient(ellipse at bottom left,rgb(242, 176, 110),rgb(255, 220, 184));;    
 }
 .physButton:hover{
     transition-duration: 0.3s;   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.1);}
