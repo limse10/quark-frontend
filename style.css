@@ -57,7 +57,7 @@
 #changingHeadText::before{
 
     opacity: 100%;
-    content:"";
+    -webkit-content:"";
 
     font-weight: 700;
     width:100px;
