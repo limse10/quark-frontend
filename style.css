@@ -4,7 +4,9 @@ head{
 
 body{
     background-image: url('image/hometwo.svg');
+    -webkit-background-image: url('image/hometwo.svg');
     background-repeat: repeat-y;
+    -webkit-background-repeat:repeat-y;
     background-size: cover;
     -webkit-background-size: cover;
 }
