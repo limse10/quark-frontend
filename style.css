@@ -2,6 +2,11 @@ head{
     background:transparent;
 }
 
+body hr{
+margin-left:50px ;
+margin-right:50px ;
+}
+
 body{
     background-image: url('image/hometwo.svg');
     -webkit-background-image: url('image/hometwo.svg');
@@ -19,7 +24,7 @@ body{
     background:rgba(255,255,255,0.4);
     -webkit-background:rgba(255,255,255,0.4);
     backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(40px);
 }
 
 #subflex1{
@@ -91,7 +96,7 @@ body{
     font-weight: 4px;
     font-size: 4vw;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: max-content;
+    width: fit-content;
 
 }
 
@@ -409,7 +414,9 @@ body{
         width:100%;
 
         align-self:center;
-
+        height:max-content;
+        
+        padding-top:100px;
     }
     #box1{
         width:100%;
@@ -417,20 +424,21 @@ body{
     }
     #subflex1{
         align-self:center;
-    margin:10px;
-    width:100%;
+        margin:10px;
+         width:100%;
+         flex-wrap:wrap-reverse;
     }
     #subflex2{
         align-self:center;
     margin:10px;
     width:100%;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     }
     #subflex3{
         align-self:center;
     margin:10px;
     width:100%;
-
+    flex-wrap: wrap-reverse;
     }
     .narrativeTextLeft{
         margin-top:0px;
@@ -441,20 +449,27 @@ body{
         text-align:center;
     }
 
+    #containerMain{
+        padding-top: 0px;
+    }
+    .cardContainer1{
+        padding-bottom:80px;
+    }
+    #boxTextConst{
+        font-size:44px;
+
+    }
 }
 
 @media all and (max-width:1000px){
     #containerMain{
         width:92%;
     }
+
 }
 
 @media all and (max-width:500px){
-    .container1{
-        height:max-content;
-        padding-bottom:10px
 
-    }
     #containerMain{
         width:95vw;
     }
