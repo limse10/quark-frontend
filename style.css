@@ -244,9 +244,9 @@ body{
     overflow: hidden;
 }
 
-#cardContainer1{
+.cardContainer1{
     display:flex;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     justify-content: center;
     margin-top:30px;
 }
@@ -446,8 +446,12 @@ body{
 }
 
 @media all and (max-width:500px){
-    .cardMain{
-        transform:scale(0.9);
+    .container1{
+        height:max-content;
+        padding-bottom:10px
 
+    }
+    #containerMain{
+        width:95vw;
     }
 }
