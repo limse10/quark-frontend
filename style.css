@@ -1,3 +1,10 @@
+head{
+    background:transparent;
+}
+
+body{
+
+}
 
 #subflex1{
     display:flex;
@@ -18,9 +25,30 @@
 
 }
 
+#containerMain{
+    border:0.6px solid rgba(200,200,200,0.3);
+    padding-top:80px;
+    padding-bottom:20px;
+    border-radius:20px;
+    position: relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+    align-items: center;
+    width:fit-content;
+    height:fit-content;
+    background: white;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+}
+
 #flexmain{
     margin-top: 50px;
 
+    position: absolute;
+    /*margin-top:-20px;*/
+    top:0px;
+    left:0px;
+    z-index: 2;
     display:flex;
     flex-wrap:wrap;
 }
@@ -195,8 +223,8 @@
 }
 
 .container1{
-    margin:10px;
-    width: 46vw;
+    margin-left:-10px;
+    width: 40vw;
     height:400px;
     background:transparent;
     overflow: hidden;
@@ -211,7 +239,7 @@
 
 .cardMain{
     border:0.4px solid rgba(160,160,160,0.3);
-
+    background:whitesmoke;
     /*
     background-image: url('image/download.jpeg');
     background-repeat: no-repeat;
@@ -357,7 +385,7 @@
 
 
 
-@media all and (max-width:1000px){
+@media all and (max-width:1200px){
     .container1{
 
         width:100%;
@@ -397,3 +425,14 @@
 
 }
 
+@media all and (max-width:1000px){
+    #containerMain{
+        width:92%;
+    }
+}
+
+@media all and (max-width:500px){
+    .cardMain{
+        transform:scale(0.9);
+    }
+}
