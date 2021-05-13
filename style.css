@@ -114,8 +114,14 @@ body{
     font-weight: 700;
     width:100px;
     height:100px;
-    animation: changeTitleText 15s alternate-reverse infinite;
-    -webkit-animation: changeTitleText 15s alternate-reverse infinite;
+    animation-name: changeTitleText ;
+    animation-duration:15s ;
+    animation-direction:alternate-reverse ;
+    animation-iteration-count:infinite;
+    -webkit-animation-name: changeTitleText ;
+    -webkit-animation-duration:15s ;
+    -webkit-animation-direction:alternate-reverse ;
+    -webkit-animation-iteration-count:infinite;
 }
 
 #changingHeadTest::after{
@@ -126,8 +132,14 @@ body{
     font-weight: 700;
     width:100px;
     height:100px;
-    animation: changeTitleText 15s alternate-reverse infinite;
-    -webkit-animation: changeTitleText 15s alternate-reverse infinite;
+    animation-name: changeTitleText ;
+    animation-duration:15s ;
+    animation-direction:alternate-reverse ;
+    animation-iteration-count:infinite;
+    -webkit-animation-name: changeTitleText ;
+    -webkit-animation-duration:15s ;
+    -webkit-animation-direction:alternate-reverse ;
+    -webkit-animation-iteration-count:infinite;
 }
 
 @keyframes changeTitleText{
