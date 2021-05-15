@@ -8,8 +8,8 @@ margin-right:50px ;
 }
 
 body{
-    background-image: url('image/hometwo.svg');
-    -webkit-background-image: url('image/hometwo.svg');
+    background-image: url('image/Primordial.png');
+    -webkit-background-image: url('image/Primordial.png');
     background-repeat: repeat-y;
     -webkit-background-repeat:repeat-y;
     background-size: cover;
@@ -21,8 +21,8 @@ body{
     left:0px;
     width: 100%;
     height:100%;
-    background:rgba(255,255,255,0.4);
-    -webkit-background:rgba(255,255,255,0.4);
+    background:rgba(5,5,5,0.1);
+    -webkit-background:rgba(255,255,255,0.1);
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(40px);
 }
@@ -58,7 +58,7 @@ body{
     align-items: center;
     width:fit-content;
     height:fit-content;
-    background: rgba(255,255,255,0.6);
+    background: rgba(45,45,45,0.6);
     backdrop-filter: blur(15px);
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
 }
@@ -144,114 +144,114 @@ body{
 
 @keyframes changeTitleText{
     0% {
-        opacity: -10%;
-        opacity: 100%;
+        opacity:0;
+        opacity: 1;
         content:"Economics.";
 
     }
     10%{
 
-        opacity: -10%;
+        opacity: 0;
 
     }
    20% {
-    opacity: 100%;
+    opacity: 1;
         content:"Chemistry.";
 
     }
 
     30%{
 
-        opacity: -10%;
+        opacity: 0;
     }
     40% {
-        opacity: 100%;
+        opacity: 1;
         content:"Physics.";
 
     }
 
     50%{
 
-        opacity: -10%;
+        opacity: 0;
     }
     60% {
-        opacity: 100%;
+        opacity: 1;
         content:"English.";
 
     }
     
     70%{
 
-        opacity: -10%;
+        opacity: 0;
     } 
     80% {
-        opacity: 100%;
+        opacity: 1;
         content:"Biology.";
 
     }
 
     90%{
-        opacity: -10%;
+        opacity: 0;
     }
     100% {
-        opacity: 100%;
+        opacity: 1;
         content:"you.";
 
     }
 }
 @-webkit-keyframes changeTitleText{
     0% {
-        -webkit-opacity: -10%;
-        -webkit-opacity: 100%;
-        -webkit-content:"Economics.";
 
+        -webkit-opacity: 1;
+        -webkit-content:"Economics.";
+        
     }
     10%{
 
-        -webkit-opacity: -10%;
+        -webkit-opacity: 0;
 
     }
    20% {
-    -webkit-opacity: 100%;
+    -webkit-opacity: 1;
     -webkit-content:"Chemistry.";
 
     }
 
     30%{
 
-        -webkit-opacity: -10%;
+        -webkit-opacity: 0;
     }
     40% {
-        -webkit-opacity: 100%;
+        -webkit-opacity: 1;
         -webkit-content:"Physics.";
 
     }
 
     50%{
 
-        -webkit-opacity: -10%;
+        -webkit-opacity: 0;
     }
     60% {
-        -webkit-opacity: 100%;
+        -webkit-opacity: 1;
         -webkit-content:"English.";
 
     }
     
     70%{
 
-        -webkit-opacity: -10%;
+        -webkit-opacity: 0;
     } 
     80% {
-        -webkit-opacity: 100%;
+        -webkit-opacity: 1;
         -webkit-content:"Biology.";
 
     }
 
     90%{
-        -webkit-opacity: -10%;
+        -webkit-opacity: 0;
     }
     100% {
-        -webkit-opacity: 100%;
+        -webkit-opacity: 1;
         -webkit-content:"you.";
 
     }
